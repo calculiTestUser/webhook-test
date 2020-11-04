@@ -91,12 +91,6 @@
 								"definition": "Build Instrumented",
 								"command": "go test -c -coverpkg=all -covermode=count -o ((application.name))-instrumented",
 								"properties": null
-							},
-							{
-								"name": "fail build",
-								"definition": "fail build",
-								"command": "echo \"exiting with non zero code to fail build\"\nexit 1",
-								"properties": null
 							}
 						],
 						"docker_options": {}
